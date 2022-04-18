@@ -1,0 +1,104 @@
+.homepage-wrapper {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.first {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 95vw;
+    background-image: url("src/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: -50%;
+}
+
+.first h1 {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color: #f4b14f;
+}
+
+.first h2 {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 60ch;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #f4b14f88;
+}
+
+.first button {
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    font-family: Montserrat, sans-serif;
+    background: #53aeb7;
+    color: black;
+    border: none;
+}
+
+.category-title {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 4em;
+    width: 50%;
+}
+
+.second h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    max-width: 50ch;
+    text-align: center;
+    font-size: 2em;
+}
+
+.second header {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    border-bottom: 1px solid #eeeeee;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.flex-container {
+    display: flex;
+}
+
+p {
+    max-width: 30ch;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.second div img {
+    width: 70%;
+}
+
+.div-wrapper {
+    display: flex;
+    place-items: center;
+}
+
+.description-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.description-wrapper img {
+
+}

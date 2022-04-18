@@ -1,0 +1,23 @@
+.header-wrapper {
+    display: flex;
+    place-items: center;
+    padding: 2em;
+}
+
+nav button {
+    background: #444;
+    border: none;
+    color: #f4b14f;
+    padding: 2em;
+}
+
+#contact-button {
+    background: #55a7b7;
+    color: black;
+    border: none;
+    padding: 1em 1.5em;
+}
+
+img {
+    height: 5em;
+}
